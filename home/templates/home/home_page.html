@@ -10,12 +10,20 @@ Delete the line below if you're just getting started and want to remove the welc
 {% endcomment %}
 <link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
 {% endblock extra_css %}
-
 {% block content %}
 
 {% comment %}
 Delete the line below if you're just getting started and want to remove the welcome screen!
 {% endcomment %}
+{% comment %}
 {% include 'home/welcome_page.html' %}
+{% endcomment %}
 
+<section class="hero-section bg-light py-5">
+  <div class="container text-center">
+    <h1 class="display-4">Hi, I'm Thomas Kim</h1>
+    <p class="lead">Welcome to my personal website! I'm a [your profession/role] passionate about [your interests].</p>
+    <a href="/about/" class="btn btn-primary btn-lg">Learn More About Me</a>
+  </div>
+</section>
 {% endblock content %}
