@@ -1,0 +1,16 @@
+# Ignore generated files
+*.pyc
+__pycache__/
+
+# Ignore IDE-specific files
+.idea/
+.pycharm/
+.vscode/
+
+# Ignore virtual environment files
+venv/
+
+# Ignore other directories
+media/
+static/
+log/
